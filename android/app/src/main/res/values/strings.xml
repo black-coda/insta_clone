@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">iLite App</string>
+    <string name="facebook_app_id">726028532539649</string>
+    <string name="fb_login_protocol_scheme">fb726028532539649</string>
+    <string name="facebook_client_token">106b0e4e9269ce83b901462741650275</string>
+</resources>
