@@ -14,7 +14,7 @@
       },
       "oauth_client": [
         {
-          "client_id": "742729565398-qvh9ovq2i0aaajpfa0hpk555defh5p26.apps.googleusercontent.com",
+          "client_id": "742729565398-q2f2heq72do8hh5v7uk1986qqdelei40.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
@@ -27,8 +27,15 @@
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "742729565398-qvh9ovq2i0aaajpfa0hpk555defh5p26.apps.googleusercontent.com",
+              "client_id": "742729565398-q2f2heq72do8hh5v7uk1986qqdelei40.apps.googleusercontent.com",
               "client_type": 3
+            },
+            {
+              "client_id": "742729565398-s232d6g1oi2crcqr9jmkmi1r502da1vv.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.instaClone"
+              }
             }
           ]
         }

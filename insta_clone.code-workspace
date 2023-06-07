@@ -1,0 +1,18 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"cSpell.words": [
+			"Konstant",
+			"konstants"
+		]
+	},
+	"extensions": {
+		"recommendations": [
+			"teabyii.ayu"
+		]
+	}
+}

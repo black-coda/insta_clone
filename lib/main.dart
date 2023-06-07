@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
+import 'package:insta_clone/state/auth/backend/authenticator.dart';
 import 'config/theme_.dart';
 import 'firebase_options.dart';
 
@@ -40,13 +41,10 @@ class HomePage extends StatelessWidget {
         body: Center(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
-            children: <Widget>[
-              const Text(
-                'You have pushed the button this many times:',
-              ),
-              Text(
-                'counter',
-                style: Theme.of(context).textTheme.headlineMedium,
+            children: [
+              TextButton(
+                child: const Text("Google Login"),
+                onPressed: () => const Authenticator().loginWithGoogle(),
               ),
             ],
           ),
