@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 ThemeData customTheme = ThemeData(
   colorScheme: flexSchemeDark3,
   useMaterial3: true,
-  
 );
 
 const ColorScheme flexSchemeDark = ColorScheme(
@@ -23,21 +22,20 @@ const ColorScheme flexSchemeDark = ColorScheme(
   error: Color(0xffcf6679),
   onError: Color(0xff140c0d),
   errorContainer: Color(0xffb1384e),
-  onErrorContainer: Color(0xfffbe8ec),  
+  onErrorContainer: Color(0xfffbe8ec),
   background: Color(0xff18191b),
   onBackground: Color(0xffececed),
   surface: Color(0xff18191b),
   onSurface: Color(0xffececed),
   surfaceVariant: Color(0xff1f2125),
   onSurfaceVariant: Color(0xffdbdcdc),
-  outline: Color(0xff9d9da3),  
+  outline: Color(0xff9d9da3),
   shadow: Color(0xff000000),
   inverseSurface: Color(0xfff8f9fb),
   onInverseSurface: Color(0xff131313),
   inversePrimary: Color(0xff4b5363),
   surfaceTint: Color(0xff8b9dc3),
 );
-
 
 const ColorScheme flexSchemeDark2 = ColorScheme(
   brightness: Brightness.dark,
@@ -56,21 +54,20 @@ const ColorScheme flexSchemeDark2 = ColorScheme(
   error: Color(0xffcf6679),
   onError: Color(0xff140c0d),
   errorContainer: Color(0xffb1384e),
-  onErrorContainer: Color(0xfffbe8ec),  
+  onErrorContainer: Color(0xfffbe8ec),
   background: Color(0xff1a1d1f),
   onBackground: Color(0xffededed),
   surface: Color(0xff1a1d1f),
   onSurface: Color(0xffededed),
   surfaceVariant: Color(0xff242a2d),
   onSurfaceVariant: Color(0xffdcddde),
-  outline: Color(0xffa1a1a1),  
+  outline: Color(0xffa1a1a1),
   shadow: Color(0xff000000),
   inverseSurface: Color(0xfffafdff),
   onInverseSurface: Color(0xff131314),
   inversePrimary: Color(0xff5c7278),
   surfaceTint: Color(0xffb4e6ff),
 );
-
 
 const ColorScheme flexSchemeLight = ColorScheme(
   brightness: Brightness.light,
@@ -89,21 +86,20 @@ const ColorScheme flexSchemeLight = ColorScheme(
   error: Color(0xffb00020),
   onError: Color(0xffffffff),
   errorContainer: Color(0xfffcd8df),
-  onErrorContainer: Color(0xff141213),  
+  onErrorContainer: Color(0xff141213),
   background: Color(0xfff8fbfd),
   onBackground: Color(0xff090909),
   surface: Color(0xfff8fbfd),
   onSurface: Color(0xff090909),
   surfaceVariant: Color(0xfff1f7fc),
   onSurfaceVariant: Color(0xff121313),
-  outline: Color(0xff565656),  
+  outline: Color(0xff565656),
   shadow: Color(0xff000000),
   inverseSurface: Color(0xff121518),
   onInverseSurface: Color(0xfff5f5f5),
   inversePrimary: Color(0xffddfeff),
   surfaceTint: Color(0xff4496e0),
 );
-
 
 const ColorScheme flexSchemeDark3 = ColorScheme(
   brightness: Brightness.dark,
@@ -122,14 +118,14 @@ const ColorScheme flexSchemeDark3 = ColorScheme(
   error: Color(0xffcf6679),
   onError: Color(0xff140c0d),
   errorContainer: Color(0xffb1384e),
-  onErrorContainer: Color(0xfffbe8ec),  
+  onErrorContainer: Color(0xfffbe8ec),
   background: Color(0xff1e1b1c),
   onBackground: Color(0xffededed),
   surface: Color(0xff1e1b1c),
   onSurface: Color(0xffededed),
   surfaceVariant: Color(0xff2b2628),
   onSurfaceVariant: Color(0xffdddcdd),
-  outline: Color(0xffa1a1a1),  
+  outline: Color(0xffa1a1a1),
   shadow: Color(0xff000000),
   inverseSurface: Color(0xfffefbfc),
   onInverseSurface: Color(0xff131313),

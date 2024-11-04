@@ -31,6 +31,7 @@ class AuthStateNotifier extends StateNotifier<AuthState> {
   Future<void> logOut() async {
     state = state.copyWithIsLoading(isLoading: true);
     await _authenticator.logOut();
+    state = state.copyWithIsLoading(isLoading: false);
     state = const AuthState.unknown();
   }
 
@@ -43,7 +44,6 @@ class AuthStateNotifier extends StateNotifier<AuthState> {
       state.log();
       await saveUserInfo(userId: userId);
     }
-
     state = AuthState(result: result, isLoading: false, userId: userId);
   }
 
@@ -60,7 +60,7 @@ class AuthStateNotifier extends StateNotifier<AuthState> {
     state = AuthState(result: result, isLoading: false, userId: userId);
   }
 
-  Future<void> saveUserInfo({required UserId userId}) async =>
+  Future<void>  saveUserInfo({required UserId userId}) async =>
       await _userInfoStorage.saveUserInfo(
           userId: userId,
           displayName: _authenticator.displayName,
